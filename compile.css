@@ -1,0 +1,30 @@
+* {
+  box-sizing: border-box; }
+
+body {
+  background-color: #F4F4F4; }
+
+.container {
+  max-width: 710px;
+  padding: 0;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap; }
+  .container__box {
+    width: 220px;
+    height: 203px;
+    padding: 10px;
+    margin: 5px;
+    background-color: white; }
+  .container__image {
+    width: 100%;
+    margin: 0;
+    display: block; }
+  .container__caption {
+    text-align: right;
+    color: #AAA;
+    font-size: 13px;
+    margin: 10px auto; }
+
+.far {
+  color: #AAA; }

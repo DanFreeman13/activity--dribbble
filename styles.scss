@@ -1,0 +1,41 @@
+$bg-gray: #F4F4F4;
+$txt-gray: #AAA;
+
+*{
+	box-sizing: border-box;
+}
+
+body {
+	background-color: $bg-gray;
+}
+
+
+.container {
+	max-width: 710px;
+	padding: 0;
+	margin: auto;
+	display: flex;
+	flex-wrap: wrap;
+	&__box {
+	width: 220px;
+	height: 203px;
+	padding: 10px;
+	margin: 5px;
+	background-color: white;
+	}
+	&__image {
+	width: 100%;
+	margin: 0;
+	display: block;
+	}
+	&__caption {
+	text-align: right;
+	color: $txt-gray;
+	font-size: 13px;
+	margin: 10px auto;
+	}
+}
+
+.far {
+	color: #AAA;
+}
